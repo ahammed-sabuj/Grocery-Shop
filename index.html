@@ -23,6 +23,10 @@
           }
         }
     </script>
+
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <!-- section-1 "navbar and header" -->
@@ -208,7 +212,7 @@
         </div>
     </section>
     <!-- section-4 -->
-    <section class="lg:px-28 pb-20">
+    <section class="lg:px-28 pb-60 lg:pb-20">
         <div class="mt-10">
             <h1 class="ml-5 lg:ml-1 lg:m-1 lg:pl-0 text-2xl text-green-700 font-bold">Arrival & Offers</h1>
         </div>
@@ -218,7 +222,7 @@
                     <div class="">
                         <img class="" src="c2-assets/dawat-logo.png" alt="">
                     </div>
-                    <button class="bg-green-300   rounded-lg text-white font-semibold m-1 px-2 py-1 lg:m-1 mt-5 lg:ml-4 lg:mt-10 mb-5 lg:px-6 lg:py-1 lg:mb-3">Cook and exotic</button>
+                    <button class="bg-green-300   rounded-lg text-white font-semibold m-1 py-1 lg:m-1 mt-5 lg:ml-4 lg:mt-10 mb-5 lg:px-6 lg:py-1 lg:mb-3">Cook and exotic</button>
                     <h1 class="ml-2 text-xl lg:pl-2 text-white">UP to <span class="font-semibold">40% OFF</span></h1>
                 </div>
                 <div class="pt-6">
@@ -236,9 +240,52 @@
                 </div>
             </div>
         </div>
-        
-        
-
     </section>
+
+    <!-- Footer and Challenge part -->
+    <footer class="bg-green-700 pt-60 lg:pt-10 mt-72 lg:mt-44 relative">
+        <div class="lg:flex lg:justify-center gap-8 pt-52 lg:pt-12">
+            <!-- Sub-1 -->
+            <div class="flex flex-1">
+                <div class="flex flex-col lg:items-center lg:mt-8 ml-4">
+                    <img class="lg:ml-[-20px] lg:mr-8 h-14 w-2/5" src="c2-assets/logo-footer.png" alt="Logo">
+                    <p class=" text-white  text-sm w-3/5 lg:w-full lg:pl-28">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+                </div>
+            </div>
+
+            <!-- Sub-2 -->
+            <div class="lg:mt-12 ml-4 flex-1 lg:ml-20 pt-4 lg:pt-0">
+                <p class="text-white mt-3">Products</p>
+                <p class="text-white mt-3">About</p>
+                <p class="text-white mt-3">Facilities</p>
+            </div>
+
+            <!-- Sub-3 -->
+            <div class="mt-8 ml-4 lg:mt-16 flex-1">
+                <h2 class="text-lg font-bold text-white">Follow US</h2>
+                <div class="flex mt-4">
+                    <img src="c2-assets/fb.png" alt="">
+                    <img src="c2-assets/twitter.png" alt="">
+                    <img src="c2-assets/google+.png" alt="">   
+                </div>
+            </div>
+        </div>
+        <section class="lg:px-28 w-5/6 lg:w-full mt-16 absolute -top-64 lg:-top-64 lg:left-1 pl-16">
+            <div class="bg-[#efebe3] lg:flex justify-around rounded-lg">
+                <!-- image-part -->
+                <div>
+                    <img class="w-full lg:w-5/6" src="c2-assets/vegetable-busket.png" alt="">
+                </div>
+                <!-- last-part -->
+                <div class="mt-10 text-center lg:text-left">
+                    <h1 class="text-green-800 lg:text-black text-2xl font-bold pb-3">Get Grocery News!</h1>
+                    <p class="text-sm font-semibold pb-2">Exclusive training tips, ticks, product deals and more.</p>
+                    <input class="pb-2 lg:w-4/5" type="text" name="" id="" placeholder="Your email....">
+                    <br>
+                    <button class="bg-green-600 rounded-lg text-white font-normal px-6 py-1 mt-5 mb-6 lg:mb-0">Subscribe</button>
+                </div>
+            </div>
+        </section>
+    </footer> 
 </body>
 </html>
